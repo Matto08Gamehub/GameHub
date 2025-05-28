@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Orbitron',sans-serif;
+  background-color: #0e0e0e;
+  color: #f1f1f1;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight:bold;
+  color: #00ffd5;
+}
+.logo a{
+	color: #00ffd5;
+	text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00ffd5;
+}
+.hero {
+  background: url('https://multiplayer.net-cdn.it/thumbs/images/2023/05/17/top-100-videogiochi_jpg_1600x900_crop_q85.jpg') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+.games {
+  padding: 60px 40px;
+  background-color: #121212;
+}
+
+.games h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.game-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.console {
+  padding: 60px 40px;
+  background-color: #121212;
+}
+
+.console h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.console-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  padding: 15px;
+  color: #00ffd5;
+}
+.card:hover {
+  transform: scale(1.20);
+}
+
+.c-card {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  width: 350px;
+  max-height: 350px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.c-card img {
+  width: 100%;
+  height: auto;
+}
+.c-card h3 {
+  padding: 15px;
+  color: #00ffd5;
+}
+.c-card:hover {
+  transform: scale(1.20);
+}
+footer {
+	display: flex;
+	justify-content: center;
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+.social {
+  position: absolute;
+  right: 40px;                  
+  display: flex;
+  gap: 15px;
+}
+.social a{
+	font-size: 20px;
+	color: #f1f1f1;
+	text-decoration: none;
+}
+.indirizzo {
+  position: absolute;
+  left: 40px;                  
+  display: flex;
+  gap: 15px;
+}
+.indirizzo a{
+	font-size: 20px;
+	color: #f1f1f1;
+	text-decoration: none;
+}
